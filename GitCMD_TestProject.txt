@@ -1,0 +1,14 @@
+This file was created by Puneet Kr. Sharma on 2 June 2016 
+to test code from Git CMD 
+
+code copied from-: https://try.github.io/levels/1/challenges/1 -....
+
+in GitCMD_TestProject Repository
+
+
+git init
+git status
+
+git ...
+
+git add GitCMD_TestProject.txt
