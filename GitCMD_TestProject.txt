@@ -107,4 +107,39 @@ C:\Users\Android\GitCMD_TestProject>
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------
+C:\Users\Android\GitCMD_TestProject>git add *.txt
+
+C:\Users\Android\GitCMD_TestProject>git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   GitCMD_TestProject.txt
+        new file:   dummy-1.txt
+        new file:   dummy-2.txt
+        new file:   dummy.txt
+
+
+C:\Users\Android\GitCMD_TestProject>git
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+C:\Users\Android\GitCMD_TestProject>git commit -m "COMMIT COMMAND after adding a
+ll '.txt' files"
+[master a02e63d] COMMIT COMMAND after adding all '.txt' files
+ 4 files changed, 112 insertions(+), 2 deletions(-)
+ create mode 100644 dummy-1.txt
+ create mode 100644 dummy-2.txt
+ create mode 100644 dummy.txt
+
+C:\Users\Android\GitCMD_TestProject>
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
 
