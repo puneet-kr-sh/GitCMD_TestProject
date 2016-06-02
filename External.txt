@@ -1,5 +1,5 @@
 External code
 
-This file has been added tio git hub in GitBash_Test Project
+This file has been added tio git hub in GitCMD_TestProject [not Bash, earlier it was wrong description]
 
 by Puneet Externally using Upload file functionality
