@@ -140,6 +140,85 @@ C:\Users\Android\GitCMD_TestProject>
 ------------------------------------------------------------------------------------------------------------------------------------------
 
 
+C:\Users\Android\GitCMD_TestProject>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   GitCMD_TestProject.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Android\GitCMD_TestProject> git commit -m "Git CMD Commit at 6:44 PM on
+ 2nd June 2016"
+On branch master
+Changes not staged for commit:
+        modified:   GitCMD_TestProject.txt
+
+no changes added to commit
+
+C:\Users\Android\GitCMD_TestProject>git add GitCMD_TestProject.txt
+
+C:\Users\Android\GitCMD_TestProject>git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   GitCMD_TestProject.txt
+
+
+C:\Users\Android\GitCMD_TestProject> git commit -m "Git CMD Commit at 6:45 PM on
+ 2nd June 2016"
+[master f391ea4] Git CMD Commit at 6:45 PM on 2nd June 2016
+ 1 file changed, 35 insertions(+)
+
+C:\Users\Android\GitCMD_TestProject>git status
+On branch master
+nothing to commit, working directory clean
+
+C:\Users\Android\GitCMD_TestProject>
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Great job! We've gone ahead and created a new empty GitHub repository for you to use with Try Git at https://github.com/try-git/try_git.git. To push our local repo to the GitHub server we'll need to add a remote repository.
+
+This command takes a remote name and a repository URL, which in your case is https://github.com/try-git/try_git.git.
+
+Go ahead and run git remote add with the options below:
+
+git remote add origin https://github.com/try-git/try_git.git
+
+
+------------------------------------------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------------------------------------------
+The push command tells Git where to put our commits when we're ready, and boy we're ready. So let's push our local changes to our origin repo (on GitHub).
+
+The name of our remote is origin and the default local branch name is master. The -u tells Git to remember the parameters, so that next time we can simply run git push and Git will know what to do. Go ahead and push it!
+
+git push -u origin master
+------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
