@@ -295,12 +295,68 @@ From https://github.com/puneet-kr-sh/GitCMD_TestProject
 Already up-to-date.
 
 C:\Users\Android\GitCMD_TestProject>
+------------------------------------------------------------------
+After uploading a file from gitHub UI External.txt
+
+C:\Users\Android\GitCMD_TestProject>git pull GitCMD_Test master
+remote: Counting objects: 6, done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), done.
+From https://github.com/puneet-kr-sh/GitCMD_TestProject
+ * branch            master     -> FETCH_HEAD
+   a2b3530..1310419  master     -> GitCMD_Test/master
+Updating a2b3530..1310419
+Fast-forward
+ External.txt | 5 +++++
+ 1 file changed, 5 insertions(+)
+ create mode 100644 External.txt
+
+C:\Users\Android\GitCMD_TestProject>
 
 
+-------------------------------------------------------------------------------------------------------------------------------------------
+Uh oh, looks like there have been some additions and changes to the octocat family. 
+Let's take a look at what is different from our last commit by using the git diff command.
 
+In this case we want the diff of our most recent commit, which we can refer to using the HEAD pointer.
+______________________________________________
 
+but this command didn't work for me, OUTPUT :
+______________________________________________
 
+C:\Users\Android\GitCMD_TestProject>git diff head
 
+C:\Users\Android\GitCMD_TestProject>git diff head
+
+C:\Users\Android\GitCMD_TestProject>
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Another great use for diff is looking at changes within files that have already been staged. Remember,
+ staged files are files we have told git that are ready to be committed.
+
+Let's use git add to stage octofamily/octodog.txt, which I just added to the family for you.
+
+git add octofamily/octodog.txt
+
+______________________________________________
+
+but this command didn't work for me, OUTPUT :
+______________________________________________
+C:\Users\Android\GitCMD_TestProject>git add dummy/puneet.text
+fatal: pathspec 'dummy/puneet.text' did not match any files
+
+C:\Users\Android\GitCMD_TestProject>git add dummy/puneet.text
+fatal: pathspec 'dummy/puneet.text' did not match any files
+
+C:\Users\Android\GitCMD_TestProject>
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+C:\Users\Android\GitCMD_TestProject>git diff --staged
+
+C:\Users\Android\GitCMD_TestProject>
 
 
 
